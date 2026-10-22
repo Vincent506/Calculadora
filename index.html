@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+</head>
+<body>
+    <div class="calculadora">
+        <h2 id="titulo">Calculadora</h2>
+        <div class="display">0</div>
+        <div class="teclas" >
+        <button onclick="reset('0')">C</button>
+        <button onclick="putDisplay('(')">(</button>
+        <button onclick="putDisplay(')')">)</button>
+        <button >H</button>
+        <button class="number"  onclick="putDisplay('7')">7</button>
+        <button class="number"  onclick="putDisplay('8')">8</button>
+        <button class="number"  onclick="putDisplay('9')">9</button>
+        <button class="op" onclick="putDisplay('/')">/</button>
+        <button class="number"  onclick="putDisplay('4')">4</button>
+        <button class="number"  onclick="putDisplay('5')">5</button>
+        <button class="number"  onclick="putDisplay('6')">6</button>
+        <button class="op" onclick="putDisplay('*')">*</button>
+        <button class="number"  onclick="putDisplay('1')">1</button>
+        <button class="number"  onclick="putDisplay('2')">2</button>
+        <button class="number"  onclick="putDisplay('3')">3</button>
+        <button class="op" onclick="putDisplay('-')">-</button>
+        <button class="op" onclick="putDisplay('.')">.</button>
+        <button class="number" onclick="putDisplay('0')">0</button>
+        <button class="op" onclick="calcular()">=</button> 
+        <button class="op" onclick="putDisplay('+')">+</button>
+        </div>
+    </div>
+</body>
+<script src="src/main.js" ></script>
+</html>
