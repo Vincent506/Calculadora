@@ -20,6 +20,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - JavaScript (Funções de escopo e `eval()`)
 
 ## 🔧 Como Rodar o Projeto
-1. Clone este repositório: `git clone https://github.com`
+1. Clone este repositório: `git clone https://github.com/Vincent506/Calculadora.git`
 2. Abra o arquivo `index.html` diretamente no seu navegador.
 
