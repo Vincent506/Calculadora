@@ -2,6 +2,7 @@
 
 ## 🖌️ Design da Calculadora
 
+
 ![Foto-do-design-da-calculadora](assets/screenshot.png)
 
 ## 💻 Sobre o Projeto
