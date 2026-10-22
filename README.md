@@ -1,5 +1,9 @@
 # 🧮 Calculadora Geométrica
 
+## 🖌️ Design da Calculadora
+
+![Foto-do-design-da-calculadora](assets/screenshot.png)
+
 ## 💻 Sobre o Projeto
 Esta é uma calculadora funcional desenvolvida para aplicar conceitos de manipulação de DOM com JavaScript puro (Vanilla JS), estilização avançada com CSS3 utilizando fontes geométricas circulares e design responsivo.
 
